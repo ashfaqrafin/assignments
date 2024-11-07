@@ -36,6 +36,7 @@ export async function updateTodo(req, res, next) {
 }
 
 export async function deleteTodoById(req, res, next) {
+
     const { id } = req.params;
     const todoIndex = todos.findIndex(todo => todo.id == id);
 

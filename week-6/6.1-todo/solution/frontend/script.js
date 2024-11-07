@@ -60,6 +60,7 @@ document.getElementById('add-todo-btn').addEventListener('click', () => {
             titleInput.value = '';
         })
         .catch(error => console.error('Error adding todo:', error));
+
 });
 // Delete a todo
 function deleteTodo(id) {
